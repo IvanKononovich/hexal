@@ -325,6 +325,7 @@
     height: 150px;
 }
 .feedback-form__data-send {
+    cursor: pointer;
     text-transform: uppercase;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
@@ -390,4 +391,18 @@
 }
 .feedback-links-container__link_bg-img_9::after {
     background-image: url('../assets/img/socia-icon-9.png');
+}
+.footer {
+    background-color: #222222;
+}
+.copyright-container {
+    width: 961px;
+    margin: 0 auto;
+}
+.copyright-container__text {
+    padding-left: 9px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 12px;
+    color: #454545;
+    line-height: 44px;
 }
